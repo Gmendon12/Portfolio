@@ -1,0 +1,1084 @@
+body{
+    background-color: #FBF3E4;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.headercontent{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#menubar{
+    position: absolute;
+    top: 20px;
+    visibility: hidden;
+}
+
+.menupopup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 150px;
+    width: 100px;
+    background-color: #FBF3E4;
+    position: relative;
+    z-index: 100;
+    visibility: hidden;
+}
+
+.openpopup{
+    visibility: visible;
+}
+
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #105652;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.navbarcontent{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+.container{
+    height: 500px;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    right: 0px;
+    background-color: #105652;
+    display: flex;
+    flex-direction: row;
+}
+
+.intro{
+    font-size: 40px;
+    color: #FCA738;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3.5rem;
+}
+
+.web{
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.getready{
+    color: #FBF3E4;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#hireme{
+    height: 50px;
+    width: 150px;
+    background-color: #09BEAD;
+    border-color:#09BEAD;
+    border-radius: 8px;
+    box-shadow: 0px 16px 29px #08a79769;
+    font-size: 16px;
+    color: #FBF3E4;
+    cursor: pointer;
+}
+
+#getresume{
+    height: 50px;
+    width: 150px;
+    background-color: #FCA738;
+    border-color:#FCA738;
+    border-radius: 8px;
+    box-shadow: 0px 16px 29px #d36d1369;
+    font-size: 16px;
+    color: #FBF3E4;
+    cursor: pointer;
+}
+
+#basicinfo{
+    position: absolute;
+    top: 100px;
+    right: 150px;
+}
+
+#headbanner{
+    position: absolute;
+    bottom:0px;
+    left: 150px;
+}
+
+#aboutme{
+    height: 580px;
+    width: 85vw;
+    background-color: white;
+    position: absolute;
+    left: calc((100vw - 85vw)/2);
+    top: 650px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px #0a0a0a29;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#aboutmepic{
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+}
+
+#aboutmetext{
+    width: 580px;
+    text-align: justify;
+    line-height: 2rem;
+    position: absolute;
+    left: 100px;
+}
+
+.aboutmehead{
+    font-size: 30px;
+    color: #105652;
+}
+
+.line{
+    width: 200px;
+    height: 4px;
+    background-color: #FCA738;
+    border: none;
+    position: absolute;
+    left: 0px;
+}
+
+.aboutmepara{
+    color: #105652;
+    padding-top: 20px;
+}
+
+#skillscontent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 130px;
+    width: 600px;
+    box-shadow: 5px 5px 50px #0a0a0a29;
+    border-radius: 20px;
+    position: relative;
+    top: 10px;
+}
+
+#skills{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#portfolio{
+    height: 650px;
+    width: 85vw;
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    top: 1300px;
+    left: calc((100vw - 85vw)/2);
+}
+
+
+img{
+    border-radius: 10px;
+}
+
+.myportfolio{
+    font-size: 30px;
+    color: #105652;
+}
+
+.line2{
+    width: 200px;
+    height: 5px;
+    background-color: #FCA738;
+    border: none;
+}
+
+#resume{
+    position: relative;
+    top: 1980px;
+    display: flex;
+    justify-content: center;
+}
+
+.resumehead{
+    font-size: 30px;
+    color: #105652;
+}
+
+.line3{
+    width: 150px;
+    height: 5px;
+    background-color: #FCA738;
+    border: none;
+}
+
+.resumecontents{
+    width: 85vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 140px;
+    left: calc((100vw - 85vw)/2);
+}
+
+.resumecontentsimage{
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 50px #0a0a0a29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.workexptext{
+    font-size: 25px;
+    color: #105652;
+    font-weight: 700;
+}
+
+.linewp{
+    width:700px;
+}
+
+.circle{
+    height: 20px;
+    width: 20px;
+    background-color: #09BCAB;
+    border-radius: 50%;
+}
+
+.circle2{
+    height: 20px;
+    width: 20px;
+    background-color: #09BCAB;
+    border-radius: 50%;
+}
+
+#circleline{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.flexrow2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    position: relative;
+    top: -40px;
+}
+
+.workexp{
+    font-size: 20px;
+    color: #105652;
+    position: relative;
+    right: 80px;
+    font-weight: 700;
+}
+
+.workexp2{
+    font-size: 20px;
+    color: #105652;
+    position: relative;
+    right: 135px;
+    font-weight: 700;
+}
+
+.company{
+    color: #105652;
+    position: relative;
+    right: 80px;
+    top: 10px;   
+}
+
+.company2{
+    color: #105652;
+    position: relative;
+    right: 135px;
+    top: 10px;   
+}
+
+.year{
+    height: 20px;
+    width: 150px;
+    background-color: #FCA738;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.year2{
+    height: 20px;
+    width: 150px;
+    background-color: #FCA738;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.verticalline{
+    height: 80px;
+    width: 0px;
+    background-color: #09BCAB;
+    border: 1px solid #09BCAB;
+    position: relative;
+    right: 341px;
+    top: -30px;
+}
+
+.edu{
+    font-size: 20px;
+    color: #105652;
+    position: relative;
+    right: 115px;
+    font-weight: 700;
+}
+
+.university{
+    color: #105652;
+    position: relative;
+    right: 115px;
+    top: 10px;
+}
+
+.edu2{
+    font-size: 20px;
+    color: #105652;
+    position: relative;
+    right: 80px;
+    font-weight: 700;
+}
+
+.university2{
+    color: #105652;
+    position: relative;
+    right: 80px;
+    top: 10px;
+}
+
+#whatpeoplesayaboutme{
+    width: 85vw;
+    position: absolute;
+    top: 2800px;
+    left: calc((100vw - 85vw)/2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.whatpeoplesayhead{
+    font-size: 30px;
+    color: #105652;
+}
+
+.line4{
+    width: 380px;
+    height: 5px;
+    background-color: #FCA738;
+    border: none;
+}
+
+.whatpeoplesaycontents{
+    height: 450px;
+    width: 85vw;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 50px;
+    box-shadow: 5px 5px 50px #0a0a0a29;
+}
+
+.whatpeoplesayflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+}
+
+.reviewname{
+    font-size: 20px;
+}
+
+#contactme{
+    position: absolute;
+    top: 3500px;
+    left: calc((100vw - 1200px)/2);
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#contactmehead{
+    font-size: 30px;
+    color: #105652;
+}
+
+.line5{
+    width: 200px;
+    height: 5px;
+    background-color: #FCA738;
+    border: none;
+}
+
+.letsconnect{
+    font-size: 27px;
+    color: #105652;
+    font-weight: bolder;
+}
+
+.sendmessage{
+    font-size: 27px;
+    color: #FCA738;
+    font-weight: bolder;
+    position: relative;
+    top: -20px;
+}
+
+#contactmedetails{
+    height: 540px;
+    width: 400px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 80px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 5px 5px 50px #0a0a0a29;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    align-items: flex-start;
+}
+
+.contactmedetailscontent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+#submitform{
+    height: 620px;
+    width: 400px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 0px;
+    background-color: #105652;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 5px 5px 50px #0a0a0a29;
+}
+
+.contactmeflex{
+    display: flex;
+    flex-direction: row;
+}
+
+.submitformtext{
+    font-size: 17px;
+    position: absolute;
+    left: 100px;
+    color: white;
+}
+
+.submitforminput{
+    width: 400px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 5px;
+}
+
+.submitbtn{
+    height: 40px;
+    width: 250px;
+    color: white;
+    font-size: 20px;
+    background-color: #FCA738;
+    border-color:#FCA738;
+    border-radius: 8px;
+    box-shadow: 0px 16px 29px #F57F1769;
+    position: absolute;
+    left: 180px;
+    top: 570px;
+}
+
+@media (max-width: 412px) {
+    .name{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: #105652;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .navbarcontent{
+        display: none;
+    }
+    .container{
+    height: 800px;
+    width: 100vw;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background-color: #105652;
+    display: flex;
+    flex-direction: column;
+    }
+    #basicinfo{
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      left: 10px;
+      top: 50px;
+    }
+    .hi{
+        display: block;
+    }
+    .intro{
+        font-size: 35px;
+        width: 95vw;
+        color: #FCA738;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 3.5rem;
+    }
+    .web{
+        font-size: 25px;
+        width: 95vw;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    .getready{
+        color: #FBF3E4;
+        width: 95vw;
+    }
+    
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        position: absolute;
+        left:calc((100vw - 340px)/2);
+        top: 280px;
+    }
+    
+    #hireme{
+        height: 50px;
+        width: 150px;
+        background-color: #09BEAD;
+        border-color:#09BEAD;
+        border-radius: 8px;
+        box-shadow: 0px 16px 29px #08a79769;
+        font-size: 16px;
+        color: #FBF3E4;
+        cursor: pointer;
+    }
+    
+    #getresume{
+        height: 50px;
+        width: 150px;
+        background-color: #FCA738;
+        border-color:#FCA738;
+        border-radius: 8px;
+        box-shadow: 0px 16px 29px #d36d1369;
+        font-size: 16px;
+        color: #FBF3E4;
+        cursor: pointer;
+    }
+
+    #headbanner{
+        position: absolute;
+        bottom:0px;
+        height: 70vh;
+        width: 98vw;
+        left: calc((100vw - 98vw)/2);
+    }
+    
+    #menupopup{
+        width: 70vw;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        height: 400px;
+        background-color: white;
+    }
+    #menubar{
+        position: absolute;
+        right: 10px;
+        visibility: visible;
+    }
+    .menubarcontent{
+        display: flex;
+        flex-direction: row
+    }
+    .menunavigation{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+        padding-top: 50px;
+    }
+
+    #closebtn{
+        position: absolute;
+        top: 10px;
+        right: 30px;
+
+    }
+    #aboutme{
+        height: 900px;
+        width: 100vw;
+        background-color: white;
+        position: absolute;
+        left: calc((100vw - 100vw)/2);
+        top: 950px;
+        display: flex;
+        flex-direction: column;
+    }
+    #aboutmepic{
+        position: absolute;
+        width: 100vw;
+        height: 85vh;
+        bottom: 0px;
+        right: calc((100vw - 100vw)/2)
+    }
+    .line{
+        width: 120px;
+    }
+    #aboutmetext{
+        width: 90vw;
+        text-align: justify;
+        line-height: 2rem;
+        position: absolute;
+        left: calc((100vw - 90vw)/2);
+        top: 20px;
+        font-size:15px
+    }
+    
+    .aboutmehead{
+        font-size: 25px;
+        color: #105652;
+    }
+    #portfolio{
+        height: 1250px;
+        width: 98vw;
+        position: absolute;
+        top: 1900px;
+        left: 0px;
+    }
+    .myportfolio{
+        font-size: 25px;
+        color: #105652;
+    }
+    .line2{
+        width: 150px;
+    }
+    .portfolioimg{
+        width: 98vw;
+        position: relative;
+        top: -40px;
+    }
+    #skillscontent{
+        background-color: white;
+        opacity:0.9;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 180px;
+        width: 95vw;
+        box-shadow: 5px 5px 50px #0a0a0a29;
+        border-radius: 20px;
+        position: absolute;
+        top: 680px;
+        left: -10px;
+    }
+    #skills{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 15px;
+    }
+    #resume{
+        position: relative;
+        top: 3800px;
+        display: flex;
+        justify-content: center;
+    }
+    .resumehead{
+        font-size: 25px;
+    }
+    .line3{
+        width: 100px;
+    }
+    .resumecontents{
+        width: 95vw;
+        display: flex;
+        flex-direction: column ;
+        justify-content: space-between;
+        position: absolute;
+        top: 140px;
+        left: calc((100vw - 95vw)/2)
+    }
+    
+    .resumecontentsimage{
+        visibility: hidden;
+    }
+    
+    .workexptext{
+        font-size: 20px;
+        color: #105652;
+        font-weight: 700;
+    }
+    
+    .linewp{
+        width:90vw;
+    }
+    
+    .circle{
+        height: 15px;
+        width: 15px;
+        background-color: #09BCAB;
+        border-radius: 50%;
+        position: relative;
+        right: 110px;
+        top: 25px;
+    }
+
+    .circle2{
+        height: 15px;
+        width: 15px;
+        background-color: #09BCAB;
+        border-radius: 50%;
+        position: relative;
+        right: 200px;
+        top: 25px;
+    }
+    
+    #circleline{
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+        right: -100px;
+    }
+    
+    .flexrow{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        position: relative;
+        left: 10px;
+    }
+    
+    .flexrow2{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: space-between;
+        position: relative;
+        top: -40px;
+        left: 100px;
+    }
+    
+    .workexp{
+        font-size: 15px;
+        color: #105652;
+        position: relative;
+        right: 80px;
+        font-weight: 700;
+    }
+    
+    .workexp2{
+        font-size: 15px;
+        color: #105652;
+        position: relative;
+        right: 170px;
+        font-weight: 700;
+    }
+    
+    .company{
+        color: #105652;
+        position: relative;
+        right: 80px;
+        top: 10px;   
+    }
+    
+    .company2{
+        color: #105652;
+        position: relative;
+        right: 170px;
+        top: 10px;   
+    }
+    
+    .year{
+        height: 20px;
+        width: 150px;
+        background-color: #FCA738;
+        color: white;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+        left: -80px;
+        top: 10px;
+    }
+
+    .year2{
+        position: relative;
+        right: 170px;
+        top: 10px;
+    }
+    
+    .verticalline{
+        height: 80px;
+        width: 0px;
+        background-color: #09BCAB;
+        border: 1px solid #09BCAB;
+        position: relative;
+        right: 341px;
+        top: -30px;
+        visibility: hidden;
+    }
+    
+    .edu{
+        font-size: 15px;
+        color: #105652;
+        position: relative;
+        right: 80px;
+        font-weight: 700;
+    }
+    
+    .university{
+        color: #105652;
+        position: relative;
+        right: 80px;
+        top: 10px;
+    }
+    
+    .edu2{
+        font-size: 15px;
+        color: #105652;
+        position: relative;
+        right: 170px;
+        font-weight: 700;
+    }
+    
+    .university2{
+        color: #105652;
+        position: relative;
+        right: 170px;
+        top: 10px;
+    }
+    #whatpeoplesayaboutme{
+        width: 100vw;
+        position: absolute;
+        top: 5500px;
+        left: calc((100vw - 100vw)/2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .whatpeoplesayhead{
+        font-size: 25px;
+        color: #105652;
+        position: absolute;
+        top: -800px;
+        left: 20px;
+    }
+    
+    .line4{
+        width: 360px;
+        height: 5px;
+        background-color: #FCA738;
+        border: none;
+    }
+    
+    .whatpeoplesaycontents{
+        height: 1200px;
+        width: 100vw;
+        background-color: white;
+        border-radius: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        box-shadow: 5px 5px 50px #0a0a0a29;
+        position: absolute;
+        left: 0px
+    }
+    
+    .whatpeoplesayflex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: justify;
+    }
+    
+    .reviewname{
+        font-size: 20px;
+    }
+
+    #contactme{
+        position: absolute;
+        top: 6150px;
+        left: calc((100vw - 1200px)/2);
+        text-align: center;
+    }
+    
+    #contactmehead{
+        font-size: 30px;
+        color: #105652;
+    }
+    
+    .line5{
+        width: 200px;
+        height: 5px;
+        background-color: #FCA738;
+        border: none;
+    }
+    
+    .letsconnect{
+        font-size: 27px;
+        color: #105652;
+        font-weight: bolder;
+    }
+    
+    .sendmessage{
+        font-size: 27px;
+        color: #FCA738;
+        font-weight: bolder;
+        position: relative;
+        top: -20px;
+    }
+    
+    #contactmedetails{
+        height: 540px;
+        width: 100vw;
+        padding: 0px;
+        padding-top: 30px;
+        background-color: white;
+        box-shadow: 5px 5px 50px #0a0a0a29;
+        display: flex;
+        flex-direction: column;
+        gap: 90px;
+        align-items: center;
+        position: absolute;
+        left: 100vw
+    }
+    
+    .contactmedetailscontent{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+    
+    #submitform{
+        height: 620px;
+        width: 100vw;
+        padding: 0px;
+        background-color: #105652;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 100vw;
+        top: 540px;
+    }
+    
+    .contactmeflex{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+    
+    .submitformtext{
+        font-size: 17px;
+        position: absolute;
+        left: 50px;
+        color: white;
+    }
+    
+    .submitforminput{
+        width: 80vw;
+        height: 35px;
+        font-size: 20px;
+        border-radius: 5px;
+        position: relative;
+        top: 5px;
+    }
+    
+    .submitbtn{
+        height: 40px;
+        width: 250px;
+        color: white;
+        font-size: 20px;
+        background-color: #FCA738;
+        border-color:#FCA738;
+        border-radius: 8px;
+        box-shadow: 0px 16px 29px #F57F1769;
+        position: absolute;
+        left: calc((100vw - 250px)/2);
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
